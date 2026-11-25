@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adjudicated-escrow"
+version = "0.1.0"
+description = "Adjudicated Escrow — a GenLayer Intelligent Contract that settles marketplace escrow disputes by validator consensus."
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests/direct"]
